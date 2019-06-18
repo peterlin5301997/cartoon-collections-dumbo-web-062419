@@ -7,11 +7,9 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  modified = []
-  array.each do |call|
-    modified.push(call.upcase + "!")
+  array.collect do |call|
+    call.capitalize + "!"
   end
-  return modified
 end
 
 def long_planeteer_calls# code an argument here
