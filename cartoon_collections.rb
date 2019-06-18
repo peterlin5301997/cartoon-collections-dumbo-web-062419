@@ -7,8 +7,9 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.collect do |call|
-    "#{call.first.upcase}!"
+  modified = []
+  array.each do |call|
+    modified.push(call.first.upcase + "!")
   end
 end
 
