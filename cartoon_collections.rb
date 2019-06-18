@@ -30,5 +30,4 @@ def find_the_cheese(array)# code an argument here
     if element.include?(cheese_types.to_s)
       return "#{cheese_types}"
   end
-  return found
 end
