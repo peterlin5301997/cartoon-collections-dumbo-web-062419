@@ -11,6 +11,7 @@ def summon_captain_planet(array)# code an argument here
   array.each do |call|
     modified.push(call.first.upcase + "!")
   end
+  return modified
 end
 
 def long_planeteer_calls# code an argument here
